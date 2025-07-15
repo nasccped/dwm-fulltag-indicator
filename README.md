@@ -35,6 +35,16 @@ Table of contents
 What and why
 ------------
 
+This project is based on the [activetagindicatorbar patch], what looks like this
+
+<div align='center'>
+
+![activetagindicatorbar image sample](activetagindicatorbar.png)
+
+</div>
+
+[activetagindicatorbar patch]: https://dwm.suckless.org/patches/activetagindicatorbar/
+
 _Lorem..._
 
 Tags Changelog
