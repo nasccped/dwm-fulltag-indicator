@@ -35,7 +35,8 @@ Table of contents
 What and why
 ------------
 
-This project is based on the [activetagindicatorbar patch], what looks like this
+This project is based on the [activetagindicatorbar patch], which
+looks like this:
 
 <div align='center'>
 
