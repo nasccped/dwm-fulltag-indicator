@@ -1,5 +1,10 @@
-dwm-fulltag-indicator
-=====================
+<h1 align='center'>
+
+![DWM Logo](dwm.png)
+
+Full Tag Indicator Patch
+
+</h1>
 
 A **DWM patch** that mimics the [activetagindicatorbar patch].
 
