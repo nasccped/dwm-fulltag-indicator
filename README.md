@@ -51,7 +51,18 @@ looks like this:
 
 [activetagindicatorbar patch]: https://dwm.suckless.org/patches/activetagindicatorbar/
 
-_Lorem..._
+It's a cool way to personalize the occupied monitor but it fails in
+terms of customization:
+
+- [ ] Customize bar height
+- [ ] Customize bar color
+- [ ] Customize bar border
+- [ ] Customize bar padding _(from tag sides)_
+
+So, I've decided to implement all of these features, turning vanilla
+**DWM** into a more _'[riceable]'_ environment!
+
+[riceable]: https://www.reddit.com/r/unixporn/comments/45l5if/what_is_the_etymology_of_the_word_rice/
 
 Tags Changelog
 --------------
