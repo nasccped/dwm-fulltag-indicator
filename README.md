@@ -87,4 +87,13 @@ _Lorem..._
 Contributors
 ------------
 
-_Lorem..._
+> [!TIP]
+>
+> If you have contributed with this project in any way, consider
+> opening an [issue] with the **"Be a contributor"** template!
+
+[issue]: https://github.com/nasccped/dwm-fulltag-indicator/issues
+
+- Owners:
+    - [nasccped](https://github.com/nasccped)
+- Contributors:
