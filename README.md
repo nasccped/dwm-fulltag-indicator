@@ -7,14 +7,57 @@ A **DWM patch** that mimics the [activetagindicatorbar patch].
 
 > [!CAUTION]
 >
-> 1. This isn't the original README file and project. You can find
->    them at [README.old.txt] and the [official dwm repo],
->    respectively!
-> 2. You shouldn't build your dwm from this repo. This repo is just
->    for issues/PR tracking purposes. Follow the steps mentioned at
->    [INSTALL.md] file, instead.
+> This isn't the original README file and project _(it's just for
+> issue/PR tracking, instead...)_. You can find them at
+> [README.old.txt] and the [official dwm repo], respectively!
 
 [README.old.txt]: README.old.txt
 [official dwm repo]: https://git.suckless.org/dwm
 
-[INSTALL.md]: INSTALL.md
+Table of contents
+-----------------
+
+1. [What and why]
+2. [Tags Changelog]
+3. [Install]
+4. [Tips]
+5. [Customization]
+6. [Contributors]
+
+[What and why]: #what-and-why
+[Tags Changelog]: #tags-changelog
+[Install]: #install
+[Tips]: #tips
+[Customization]: #customization
+[Contributors]: #contributors
+
+
+What and why
+------------
+
+_Lorem..._
+
+Tags Changelog
+--------------
+
+_Lorem..._
+
+Install
+-------
+
+_Lorem..._
+
+Tips
+----
+
+_Lorem..._
+
+Customization
+-------------
+
+_Lorem..._
+
+Contributors
+------------
+
+_Lorem..._
