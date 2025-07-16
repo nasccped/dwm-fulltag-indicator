@@ -64,6 +64,17 @@ So, I've decided to implement all of these features, turning vanilla
 
 [riceable]: https://www.reddit.com/r/unixporn/comments/45l5if/what_is_the_etymology_of_the_word_rice/
 
+Then, the default patch implementation will looks like this: _(take a
+look to [customization])_
+
+<div align='center'>
+
+![patch feature image](default-patch.jpg)
+
+</div>
+
+[customization]: #customization
+
 Tags Changelog
 --------------
 
