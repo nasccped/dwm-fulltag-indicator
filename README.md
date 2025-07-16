@@ -23,11 +23,10 @@ Table of contents
 -----------------
 
 1. [What and why]
-2. [Tags Changelog]
-3. [Install]
-4. [Tips]
-5. [Customization]
-6. [Contributors]
+2. [Install]
+3. [Tips]
+4. [Customization]
+5. [Contributors]
 
 [What and why]: #what-and-why
 [Tags Changelog]: #tags-changelog
@@ -77,11 +76,6 @@ look to [customization])_
 </div>
 
 [customization]: #customization
-
-Tags Changelog
---------------
-
-_Lorem..._
 
 Install
 -------
