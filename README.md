@@ -24,6 +24,7 @@ Table of contents
 
 1. [What and why]
 2. [Install]
+    - [Version]
 3. [Tips]
 4. [Customization]
 5. [Contributors]
@@ -31,6 +32,7 @@ Table of contents
 [What and why]: #what-and-why
 [Tags Changelog]: #tags-changelog
 [Install]: #install
+[Version]: #version
 [Tips]: #tips
 [Customization]: #customization
 [Contributors]: #contributors
@@ -81,6 +83,10 @@ Install
 -------
 
 _Lorem..._
+
+### Version
+
+_Lorem 2..._
 
 Tips
 ----
