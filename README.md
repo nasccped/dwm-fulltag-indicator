@@ -44,6 +44,7 @@ Table of contents
     - [Bar height and thickness]
     - [Indicator position]
     - [Indicator width]
+    - [Coloring]
 5. [Contributors]
 
 [What and why]: #what-and-why
@@ -57,6 +58,7 @@ Table of contents
 [Bar height and thickness]: #bar-height-and-thickness
 [Indicator position]: #indicator-position
 [Indicator width]: #indicator-width
+[Coloring]: #coloring
 [Contributors]: #contributors
 
 What and why
@@ -320,6 +322,42 @@ drawing the rectangle:
 ![padded indicator](padded-indicator.png)
 
 </div>
+
+### Coloring
+
+Instead of using DWM setup colors, I've prepared a different set of
+colors for indicator. There's four different kinds of colors:
+
+1. when the indicator is on the selected tag
+2. when the indicator is on a non selected tag
+3. same as the above but for inverse mode
+
+<div align='center'>
+
+![colored indicator](colored-indicator.png)
+
+</div>
+
+There's also the border color, but I'll talk about it in the section
+above.
+
+By default, the indicator color follows the same as standard DWM
+setup (**mid-blue** + **tones of gray**).
+
+You can set specific color palettes or link DWM setup with indicator
+color by using the C's `define`:
+
+```c
+#define WHITE_COLOR "#eeeeee"
+
+/* set on dwm const */
+static const char col_gray4[] = WHITE_COLOR;
+
+/* set on patch const */
+static const char fti_color_sel[] = WHITE_COLOR;
+
+/* Do the same thing for all colors */
+```
 
 Contributors
 ------------
