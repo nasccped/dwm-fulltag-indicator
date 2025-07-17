@@ -44,7 +44,6 @@ Table of contents
     - [Bar height and thickness]
     - [Indicator position]
     - [Indicator width]
-4. [Customization]
 5. [Contributors]
 
 [What and why]: #what-and-why
@@ -58,7 +57,6 @@ Table of contents
 [Bar height and thickness]: #bar-height-and-thickness
 [Indicator position]: #indicator-position
 [Indicator width]: #indicator-width
-[Customization]: #customization
 [Contributors]: #contributors
 
 What and why
