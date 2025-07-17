@@ -39,6 +39,7 @@ Table of contents
         - Downloading from GitHub releases
         - Downloading from DWM patches page
     - [Patching]
+    - [Compiling]
 3. [Tips]
 4. [Customization]
 5. [Contributors]
@@ -49,6 +50,7 @@ Table of contents
 [Version]: #version
 [Get the diff file]: #get-the-diff-file
 [Patching]: #patching
+[Compiling]: #compiling
 [Tips]: #tips
 [Customization]: #customization
 [Contributors]: #contributors
@@ -251,6 +253,22 @@ in any conflict, else, you'll need to fix it manually!
 >
 > If you prefer, you can run the command without the `--merge` flag.
 > It'll create `.rej` files when failed to merge.
+
+### Compiling
+
+1. All static features (default values - variables) are pushed to
+   `config.def.h` file. So, before compiling, you must delete the
+   `config.h` to apply all changes:
+   ```sh
+   rm config.h
+   ```
+2. Is recommended to remove all binary/object files too before
+   generating the binaries:
+   ```sh
+   # You must run as super user
+   sudo make clean install
+   ```
+3. Quit your X server, start it again with startx and it's done!
 
 Tips
 ----
