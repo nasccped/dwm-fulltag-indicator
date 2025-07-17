@@ -340,8 +340,8 @@ colors for indicator. There's four different kinds of colors:
 
 </div>
 
-There's also the border color, but I'll talk about it in the section
-above.
+> There's also the border color, but I'll talk about it in the
+> section above.
 
 By default, the indicator color follows the same as standard DWM
 setup (**mid-blue** + **tones of gray**).
