@@ -35,6 +35,9 @@ Table of contents
         - How can I know my DWM version?
         - Which revision/patch version should I use?
         - About major/minor versions (before installing)
+    - [Get the diff file]
+        - Downloading from GitHub releases
+        - Downloading from DWM patches page
 3. [Tips]
 4. [Customization]
 5. [Contributors]
@@ -43,6 +46,7 @@ Table of contents
 [Tags Changelog]: #tags-changelog
 [Install]: #install
 [Version]: #version
+[Get the diff file]: #get-the-diff-file
 [Tips]: #tips
 [Customization]: #customization
 [Contributors]: #contributors
@@ -168,6 +172,62 @@ cp path/to/your/DWM-SETUP ./DWM-SETUP.bak
 2. tar:
 ```sh
 tar -cvf dwm.bak.tar path/to/your/DWM-SETUP/
+```
+
+### Get the diff file
+
+> [!NOTE]
+>
+> This step may require [`curl`][curl] program!
+
+[curl]: https://curl.se/
+
+You can get the diff file from:
+
+1. github release _(must updated)_
+2. official suckless patch page _(guaranteed stability)_
+
+#### Downloading from GitHub releases
+
+You can download it from the [release page itself] or by using the
+curl program too:
+
+[release page itself]: https://github.com/nasccped/dwm-fulltag-indicator/releases
+
+```sh
+# first, go to your dwm source path
+cd your/dwm/source/path
+# then, get the diff file
+curl -L -O https://github.com/nasccped/dwm-fulltag-indicator/releases/download/dwm-fulltagindicator-6.5.1/dwm-fulltagindicator-6.5.1.diff
+```
+
+> [!WARNING]
+>
+> - The code above is just an example. It'll download the `6.5.1`
+>   release. Make sure to get the correct version for your setup!
+> - Downloading directly from your browser will probably drop the
+>   diff file at `/home/username/Downloads`. Then, you'll need to
+>   manually move it to your dwm source path.
+
+#### Downloading from DWM patches page
+
+| steps | description                                      | image                                                     |
+| :---- | :----------------------------------------------- | :-------------------------------------------------------- |
+| 1     | Go the the [dwm patches page]                    | ![dwm patches page image](dwm-patches-page.png)           |
+| 2     | Find the target patch and click on the diff link | ![dwm patches diff link image](dwm-patches-diff-link.png) |
+| 3     | Copy the url of the diff file                    | ![patch diff url image](patch-diff-url-image.png)         |
+| 4     | Then, open your terminal and                     | ...                                                       |
+
+[dwm patches page]: https://dwm.suckless.org/patches/
+
+- Go to your dwm source path:
+```sh
+cd dwm/source/path
+```
+- Download the diff file using curl:
+```sh
+# This won't work. It's just an example URL
+curl -O https://dwm.suckless.org/patches/targetpatch/patch-diff.diff
 ```
 
 Tips
