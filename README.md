@@ -45,6 +45,7 @@ Table of contents
     - [Indicator position]
     - [Indicator width]
     - [Coloring]
+    - [Border]
 5. [Contributors]
 
 [What and why]: #what-and-why
@@ -59,6 +60,7 @@ Table of contents
 [Indicator position]: #indicator-position
 [Indicator width]: #indicator-width
 [Coloring]: #coloring
+[Border]: #border
 [Contributors]: #contributors
 
 What and why
@@ -358,6 +360,23 @@ static const char fti_color_sel[] = WHITE_COLOR;
 
 /* Do the same thing for all colors */
 ```
+
+### Border
+
+You can't customize the indicator border color/size. By default, the
+border will have `1px` thickness + the same color as the indicator
+when it's on the selected tag. Instead, you can specify if the border
+is enabled by the `fti_border`:
+
+<div align='center'>
+
+![indicator border](indicator-border.png)
+
+</div>
+
+Note that when turning off the border, the indicator rectangle will
+still be draw. Make sure to use a different color hex from the tag
+background, or the indicator can disappear...
 
 Contributors
 ------------
