@@ -47,6 +47,7 @@ Table of contents
     - [Coloring]
     - [Border]
     - [Smart dimensions]
+4. [Warnings]
 5. [Contributors]
 
 [What and why]: #what-and-why
@@ -63,6 +64,7 @@ Table of contents
 [Coloring]: #coloring
 [Border]: #border
 [Smart dimensions]: #smart-dimensions
+[Warnings]: #warnings
 [Contributors]: #contributors
 
 What and why
@@ -393,6 +395,21 @@ occurs:
 
 These constraints helps to avoid tag and window overriding. Make sure
 to use padding values that are supported by the tag dimension!
+
+Warnings
+--------
+
+If you've already applied a tag/statusbar change, adding this patch
+will probably result into merging conflict.
+
+Here are some patches that I think will result in conflict:
+- [activetagindicatorbar](https://dwm.suckless.org/patches/activetagindicatorbar/)
+- [barpadding](https://dwm.suckless.org/patches/barpadding/)
+
+> [!TIP]
+>
+> If there's some merging conflict with your setup and this patch,
+> consider opening an issue, then I can try to help!
 
 Contributors
 ------------
