@@ -46,6 +46,7 @@ Table of contents
     - [Indicator width]
     - [Coloring]
     - [Border]
+    - [Smart dimensions]
 5. [Contributors]
 
 [What and why]: #what-and-why
@@ -61,6 +62,7 @@ Table of contents
 [Indicator width]: #indicator-width
 [Coloring]: #coloring
 [Border]: #border
+[Smart dimensions]: #smart-dimensions
 [Contributors]: #contributors
 
 What and why
@@ -377,6 +379,20 @@ is enabled by the `fti_border`:
 Note that when turning off the border, the indicator rectangle will
 still be draw. Make sure to use a different color hex from the tag
 background, or the indicator can disappear...
+
+### Smart dimensions
+
+Before drawing the indicator rectangle, a lot of dimension tests
+occurs:
+
+- if indicator is on top, ignore bottom padding and vice-versa
+- if indicator height + top|bottom padding is greater than the tag
+  itself, don't draw it
+- if sum of indicator side paddings (left and right) are equals or
+  greater than the tag width, don't draw it
+
+These constraints helps to avoid tag and window overriding. Make sure
+to use padding values that are supported by the tag dimension!
 
 Contributors
 ------------
