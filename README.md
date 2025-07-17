@@ -47,10 +47,6 @@ Table of contents
 [Customization]: #customization
 [Contributors]: #contributors
 
-> [!WARNING]
->
-> All this doc is related to the latest patch version (`6.5.1`)!
-
 What and why
 ------------
 
