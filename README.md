@@ -42,6 +42,7 @@ Table of contents
     - [Compiling]
 3. [Tips and customization]
     - [Bar height and thickness]
+    - [Indicator position]
     - [Indicator width]
 4. [Customization]
 5. [Contributors]
@@ -55,6 +56,7 @@ Table of contents
 [Compiling]: #compiling
 [Tips and customization]: #tips-and-customization
 [Bar height and thickness]: #bar-height-and-thickness
+[Indicator position]: #indicator-position
 [Indicator width]: #indicator-width
 [Customization]: #customization
 [Contributors]: #contributors
@@ -302,6 +304,11 @@ can go from the image above to this:
 
 To customize the indicator thickness, you need to change the
 `fti_height` at `config.def.h` file!
+
+### Indicator position
+
+The indicator can be placed both at top or bottom of the tag. Just
+change the `fti_top` variable.
 
 ### Indicator width
 
