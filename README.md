@@ -38,6 +38,7 @@ Table of contents
     - [Get the diff file]
         - Downloading from GitHub releases
         - Downloading from DWM patches page
+    - [Patching]
 3. [Tips]
 4. [Customization]
 5. [Contributors]
@@ -47,6 +48,7 @@ Table of contents
 [Install]: #install
 [Version]: #version
 [Get the diff file]: #get-the-diff-file
+[Patching]: #patching
 [Tips]: #tips
 [Customization]: #customization
 [Contributors]: #contributors
@@ -229,6 +231,26 @@ cd dwm/source/path
 # This won't work. It's just an example URL
 curl -O https://dwm.suckless.org/patches/targetpatch/patch-diff.diff
 ```
+
+### Patching
+
+> [!NOTE]
+>
+> The `patch` program is required to proceed with this section!
+
+Use the following command to merge the diffs:
+```sh
+patch --merge -i DIFF-FILE-NAME.diff
+```
+
+This will merge all difs from the diff file into the designed
+destination. If your DWM setup is fresh, this probably won't result
+in any conflict, else, you'll need to fix it manually!
+
+> [!TIP]
+>
+> If you prefer, you can run the command without the `--merge` flag.
+> It'll create `.rej` files when failed to merge.
 
 Tips
 ----
