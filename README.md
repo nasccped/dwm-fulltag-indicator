@@ -270,15 +270,31 @@ in any conflict, else, you'll need to fix it manually!
    ```
 3. Quit your X server, start it again with startx and it's done!
 
-Tips
-----
+Tips and customization
+----------------------
 
-_Lorem..._
+By default, this patch implementation comes like this:
 
-Customization
--------------
+<div align='center'>
 
-_Lorem..._
+![patch feature image](default-patch.jpg)
+
+</div>
+
+### Bar height
+
+The indicator draw has no way to know the statusbar/font height, and
+**yes**! The indicator can override the tag name. To prevent this,
+consider using the [`barheight patch`][barheight-patch] too, and you
+can go from the image above to this:
+
+[barheight-patch]: https://dwm.suckless.org/patches/bar_height/
+
+<div align='center'>
+
+![patch feature image](with-barheight.png)
+
+</div>
 
 Contributors
 ------------
