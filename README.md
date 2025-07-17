@@ -281,7 +281,7 @@ By default, this patch implementation comes like this:
 
 </div>
 
-### Bar height
+### Bar height and thickness
 
 The indicator draw has no way to know the statusbar/font height, and
 **yes**! The indicator can override the tag name. To prevent this,
@@ -295,6 +295,9 @@ can go from the image above to this:
 ![patch feature image](with-barheight.png)
 
 </div>
+
+To customize the indicator thickness, you need to change the
+`fti_height` at `config.def.h` file!
 
 Contributors
 ------------
