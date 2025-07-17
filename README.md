@@ -40,7 +40,8 @@ Table of contents
         - Downloading from DWM patches page
     - [Patching]
     - [Compiling]
-3. [Tips]
+3. [Tips and customization]
+    - [Bar height and thickness]
 4. [Customization]
 5. [Contributors]
 
@@ -51,7 +52,8 @@ Table of contents
 [Get the diff file]: #get-the-diff-file
 [Patching]: #patching
 [Compiling]: #compiling
-[Tips]: #tips
+[Tips and customization]: #tips-and-customization
+[Bar height and thickness]: #bar-height-and-thickness
 [Customization]: #customization
 [Contributors]: #contributors
 
