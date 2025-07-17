@@ -42,6 +42,7 @@ Table of contents
     - [Compiling]
 3. [Tips and customization]
     - [Bar height and thickness]
+    - [Indicator width]
 4. [Customization]
 5. [Contributors]
 
@@ -54,6 +55,7 @@ Table of contents
 [Compiling]: #compiling
 [Tips and customization]: #tips-and-customization
 [Bar height and thickness]: #bar-height-and-thickness
+[Indicator width]: #indicator-width
 [Customization]: #customization
 [Contributors]: #contributors
 
@@ -294,12 +296,25 @@ can go from the image above to this:
 
 <div align='center'>
 
-![patch feature image](with-barheight.png)
+![with barheight](with-barheight.png)
 
 </div>
 
 To customize the indicator thickness, you need to change the
 `fti_height` at `config.def.h` file!
+
+### Indicator width
+
+The indicator width will **always** fit to the entire tag. To control
+the indicator width, you should use the padding values
+(`fti_p<SIDE_NAME>`) instead. This ensures no tag overflow when
+drawing the rectangle:
+
+<div align='center'>
+
+![padded indicator](padded-indicator.png)
+
+</div>
 
 Contributors
 ------------
