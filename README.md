@@ -25,6 +25,10 @@ Table of contents
 1. [What and why]
 2. [Install]
     - [Version]
+        - Which major/minor version should I use?
+        - How can I know my DWM version?
+        - Which revision/patch version should I use?
+        - About major/minor versions (before installing)
 3. [Tips]
 4. [Customization]
 5. [Contributors]
