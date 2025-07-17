@@ -10,13 +10,19 @@ A **DWM patch** that mimics the [activetagindicatorbar patch].
 
 [activetagindicatorbar patch]: https://dwm.suckless.org/patches/activetagindicatorbar/
 
-> [!CAUTION]
+> [!WARNING]
 >
 > This isn't the original README file and project _(it's just for
-> issue/PR tracking, instead...)_. You can find them at
-> [README.old.txt] and the [official dwm repo], respectively!
+> issue/PR tracking and guidelines, instead...)_.
+>
+> You can also:
+> - check the [original README]
+> - check the [official dwm repo]
+>
+> All this page bellow is related to the latest patch release
+> (`6.5.1` | 2025-07-16)!
 
-[README.old.txt]: README.old.txt
+[original README]: README.old.txt
 [official dwm repo]: https://git.suckless.org/dwm
 
 Table of contents
