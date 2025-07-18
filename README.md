@@ -47,6 +47,7 @@ Table of contents
     - [Coloring]
     - [Border]
     - [Smart dimensions]
+    - [My personal setup]
 4. [Warnings]
 5. [Contributors]
 
@@ -64,6 +65,7 @@ Table of contents
 [Coloring]: #coloring
 [Border]: #border
 [Smart dimensions]: #smart-dimensions
+[My personal setup]: #my-personal-setup
 [Warnings]: #warnings
 [Contributors]: #contributors
 
@@ -395,6 +397,20 @@ occurs:
 
 These constraints helps to avoid tag and window overriding. Make sure
 to use padding values that are supported by the tag dimension!
+
+### My personal setup
+
+The image above is my personal patch implementation:
+
+<div align='center'>
+
+![personal setup](personal-setup.png)
+
+</div>
+
+You can find all my dwm configs at my [personal dwm repository]!
+
+[personal dwm repository]: https://github.com/nasccped/dwm.conf
 
 Warnings
 --------
