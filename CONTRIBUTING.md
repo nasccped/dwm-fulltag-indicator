@@ -56,7 +56,7 @@ There's two kind of tags:
 
     Where `x` corresponds to the patch version.
 
-### Releases
+### 3. Releases
 
 All releases are built from a **feature tag**. It will contain:
 - A relatively short description ( + `bug fixes` and
