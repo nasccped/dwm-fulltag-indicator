@@ -137,3 +137,25 @@ git add <changed_or_new_files> && git commit -m "changes message"
 > Before contributing, make sure that your code compiles
 > (`rm config.h -f && sudo make clean install`) and it does what it's
 > supposed to do!
+
+## Build a release bug-fix
+
+1. checkout to the target release tag (ie, `dwm-fulltagindicator-6.5.1`):
+```sh
+git checkout tags/dwm-fulltagindicator-6.5.1
+```
+2. create a new branch from it:
+```sh
+git checkout -b dwm-fulltagindicator-6.5.<new_patch_version>
+```
+3. fix the bug
+4. add and commit your changes
+```sh
+git add <file_name> && git commit -m "change message"
+```
+
+> [!IMPORTANT]
+>
+> Before contributing, make sure that your code compiles
+> (`rm config.h -f && sudo make clean install`) and it does what it's
+> supposed to do!
