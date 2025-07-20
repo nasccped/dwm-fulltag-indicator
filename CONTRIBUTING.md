@@ -124,7 +124,7 @@ git checkout tags/base-<version>
 ```
 3. create a new branch for release impl:
 ```sh
-git checkout -b tags/dwm-fulltagindicator-<base_version>-1
+git checkout -b dwm-fulltagindicator-<base_version>-1
 ```
 4. do all the code stuff
 5. add your changes and commit:
