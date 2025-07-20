@@ -434,8 +434,12 @@ Contributors
 >
 > If you have contributed with this project in any way, consider
 > opening an [issue] with the **"Be a contributor"** template!
+>
+> If you want to contribute, consider reading the [CONTRIBUTING]
+> page!
 
 [issue]: https://github.com/nasccped/dwm-fulltag-indicator/issues
+[CONTRIBUTING]: CONTRIBUTING.md
 
 - Owners:
     - [nasccped](https://github.com/nasccped)
