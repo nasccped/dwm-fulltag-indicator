@@ -33,7 +33,7 @@ There's two kind of tags:
     The entrypoint for feature implementation. Consider the base branch
     as the source minimal setup (default source code + usefull patches
     before feat. building). It's usefull when the feature synergizes
-    with other patches but this last aren't intendet to by added to the
+    with other patches but this last aren't intended to by added to the
     feat. itself.
 
     All base tags should have the following name format:
