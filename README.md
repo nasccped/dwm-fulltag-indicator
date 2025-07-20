@@ -49,7 +49,7 @@ Table of contents
     - [Smart dimensions]
     - [My personal setup]
 4. [Warnings]
-5. [Contributors]
+5. [Contribute]
 
 [What and why]: #what-and-why
 [Tags Changelog]: #tags-changelog
@@ -67,7 +67,7 @@ Table of contents
 [Smart dimensions]: #smart-dimensions
 [My personal setup]: #my-personal-setup
 [Warnings]: #warnings
-[Contributors]: #contributors
+[Contribute]: #contribute
 
 What and why
 ------------
@@ -427,8 +427,8 @@ Here are some patches that I think will result in conflict:
 > If there's some merging conflict with your setup and this patch,
 > consider opening an issue, then I can try to help!
 
-Contributors
-------------
+Contribute
+----------
 
 > [!TIP]
 >
