@@ -1,6 +1,6 @@
 <h1 align='center'>
 
-![DWM Logo](dwm.png)
+![DWM Logo](https://raw.githubusercontent.com/nasccped/dwm-fulltag-indicator/refs/heads/main/assets/dwm.png)
 
 Full Tag Indicator Patch
 
@@ -77,7 +77,7 @@ looks like this:
 
 <div align='center'>
 
-![activetagindicatorbar image sample](activetagindicatorbar.png)
+![activetagindicatorbar image sample](https://raw.githubusercontent.com/nasccped/dwm-fulltag-indicator/refs/heads/main/assets/activetagindicatorbar.png)
 
 </div>
 
@@ -101,7 +101,7 @@ look to [customization])_
 
 <div align='center'>
 
-![patch feature image](default-patch.jpg)
+![patch feature image](https://raw.githubusercontent.com/nasccped/dwm-fulltag-indicator/refs/heads/main/assets/default-patch.jpg)
 
 </div>
 
@@ -229,12 +229,12 @@ curl -L -O https://github.com/nasccped/dwm-fulltag-indicator/releases/download/d
 
 #### Downloading from DWM patches page
 
-| steps | description                                      | image                                                     |
-| :---- | :----------------------------------------------- | :-------------------------------------------------------- |
-| 1     | Go the the [dwm patches page]                    | ![dwm patches page image](dwm-patches-page.png)           |
-| 2     | Find the target patch and click on the diff link | ![dwm patches diff link image](dwm-patches-diff-link.png) |
-| 3     | Copy the url of the diff file                    | ![patch diff url image](patch-diff-url-image.png)         |
-| 4     | Then, open your terminal and                     | ...                                                       |
+| steps | description                                      | image                                                                                                                        |
+| :---- | :----------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Go the the [dwm patches page]                    | ![dwm patches page image](https://raw.githubusercontent.com/nasccped/dwm-fulltag-indicator/refs/heads/main/assets/dwm-patches-page.png)           |
+| 2     | Find the target patch and click on the diff link | ![dwm patches diff link image](https://raw.githubusercontent.com/nasccped/dwm-fulltag-indicator/refs/heads/main/assets/dwm-patches-diff-link.png) |
+| 3     | Copy the url of the diff file                    | ![patch diff url image](https://raw.githubusercontent.com/nasccped/dwm-fulltag-indicator/refs/heads/main/assets/patch-diff-url-image.png)         |
+| 4     | Then, open your terminal and                     | ...                                                                                                                          |
 
 [dwm patches page]: https://dwm.suckless.org/patches/
 
@@ -291,7 +291,7 @@ By default, this patch implementation comes like this:
 
 <div align='center'>
 
-![patch feature image](default-patch.jpg)
+![patch feature image](https://raw.githubusercontent.com/nasccped/dwm-fulltag-indicator/refs/heads/main/assets/default-patch.jpg)
 
 </div>
 
@@ -306,7 +306,7 @@ can go from the image above to this:
 
 <div align='center'>
 
-![with barheight](with-barheight.png)
+![with barheight](https://raw.githubusercontent.com/nasccped/dwm-fulltag-indicator/refs/heads/main/assets/with-barheight.png)
 
 </div>
 
@@ -327,7 +327,7 @@ drawing the rectangle:
 
 <div align='center'>
 
-![padded indicator](padded-indicator.png)
+![padded indicator](https://raw.githubusercontent.com/nasccped/dwm-fulltag-indicator/refs/heads/main/assets/padded-indicator.png)
 
 </div>
 
@@ -342,7 +342,7 @@ colors for indicator. There's four different kinds of colors:
 
 <div align='center'>
 
-![colored indicator](colored-indicator.png)
+![colored indicator](https://raw.githubusercontent.com/nasccped/dwm-fulltag-indicator/refs/heads/main/assets/colored-indicator.png)
 
 </div>
 
@@ -376,7 +376,7 @@ is enabled by the `fti_border`:
 
 <div align='center'>
 
-![indicator border](indicator-border.png)
+![indicator border](https://raw.githubusercontent.com/nasccped/dwm-fulltag-indicator/refs/heads/main/assets/indicator-border.png)
 
 </div>
 
@@ -404,7 +404,7 @@ The image above is my personal patch implementation:
 
 <div align='center'>
 
-![personal setup](personal-setup.png)
+![personal setup](https://raw.githubusercontent.com/nasccped/dwm-fulltag-indicator/refs/heads/main/assets/personal-setup.png)
 
 </div>
 
